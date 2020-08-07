@@ -27,46 +27,6 @@ main{
     position : absolute;
 }
 
-/* .square .fa{
-    color : #f98d94;
-    text-shadow: 0 0 8px #dee1dd;
-    font-size: 11px;
-    animation : spin 3s linear infinite;
-    position: relative;
-} */
-
-/* =========orbit=========== */
-
-/* .square .orbit1{
-    border-radius : 60% 70% 30% 50%/40% 70% 50% 60%;
-    animation : circle 10s linear infinite;
-}
-
-.orbit1 .fa{
-    top : 50%;
-}
-
-.square .orbit2{
-    border-radius : 60% 70% 30% 50%/40% 70% 50% 60%;
-    animation : circle 11s linear infinite;
-    animation-direction: reverse;
-} 
-
-.orbit2 .fa{
-    top : 50%;
-}
-
-.square .orbit3{
-    border-radius : 40% 70% 50% 60%/60% 70% 30% 50%;
-    animation : circle 12s linear infinite;
-}
-
-.orbit3 .fa{
-    top : 50%;
-} */
-
-/* =============orbit=============== */
-
 .square>span:nth-child(1){
     border-radius: 40% 30% 55% 60%/30% 50% 60% 40%;
     animation : circle 9s linear infinite;
@@ -116,9 +76,6 @@ main{
     display : none;
 }
 
-/* .square:hover .fa{
-    display : none
-} */
 
 .square .text-box{
     position: absolute;
@@ -191,7 +148,6 @@ main{
 #menu{
     width : 900px;
     height: 30px;
-    /* border : 1px solid red; */
     margin : 0 auto;
     padding : 30px;
 }
@@ -201,10 +157,8 @@ main{
     width : 100px;
     text-align: center;
     font-size: 13px;
-    /* font-weight : 800; */
     padding : 5px;
     display : inline-block;
-    /* border : 1px solid #dee1dd3d; */
     border-radius: 3px;
 }
 
@@ -271,17 +225,6 @@ main{
     box-sizing: border-box;
 }
 
-/* .content:before{
-    content : '';
-    position : absolute;
-    background : #000;
-    width: 100%;
-    height: 70px;
-    left : 0;
-    top : 0;
-    transform-origin: left bottom;
-    transform : rotate(-5deg) scale(1.3);
-} */
 
 .gallery li:hover .content{
     bottom : 0;
